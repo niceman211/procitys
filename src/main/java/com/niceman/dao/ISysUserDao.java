@@ -24,4 +24,5 @@ public interface ISysUserDao {
 	@Insert("insert into sys_user(username,userpwd) values (#{username},#{userpwd})" )
 	public void insert(SysUser sysUser);
 	
+	public void update();
 }
