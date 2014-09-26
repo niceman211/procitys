@@ -25,4 +25,6 @@ public interface ISysUserDao {
 	public void insert(SysUser sysUser);
 	
 	public void update();
+	
+	public void delete();
 }
